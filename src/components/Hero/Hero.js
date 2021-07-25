@@ -19,9 +19,8 @@ const Hero = () => (
           <p style={{ fontSize: '40px' }}>Fullstack web developer</p>
         </SectionTitle>
         <SectionText>
-          The purpose of JavaScript Mastery is to help aspiring and established
-          developers to take their development skills to the next level and
-          build awesome apps.
+          I can say that i am the best javaScript Developer that you have ever
+          met
         </SectionText>
       </LeftSection>
     </Section>

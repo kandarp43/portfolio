@@ -4,7 +4,7 @@ export const projects = [
     description:
       "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Blogcode and it is a simple Blogging app that allows users to post interesting events that happened in their lives.",
     image: '/images/1.png',
-    tags: ['Mongo', 'Express', 'React', 'Node'],
+    tags: ['MongoDb', 'Express Js', 'React Js', 'Node'],
     source: 'https://google.com',
     visit: [
       'https://github.com/kandarp43/blogcode-frontend',
@@ -15,11 +15,11 @@ export const projects = [
   {
     title: 'E-Commerce',
     description:
-      "While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
+      "While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions., you will have this unique and complex webshop app.",
     image: '/images/2.png',
-    tags: ['Nextjs', 'React'],
+    tags: ['Next Js', 'React Js'],
     source: 'https://google.com',
-    visit: ['https://google.com'],
+    visit: ['https://github.com/kandarp43/E-Commerce-NextJs'],
     id: 1,
   },
   {
@@ -27,16 +27,16 @@ export const projects = [
     description:
       'The App is called Connect and it is a simple Social Media app that allows users to post interesting events that happened in their lives and also have a feature of 1-to-1 chatting',
     image: '/images/3.jpg',
-    tags: ['React', 'WebRTC'],
+    tags: ['React js', 'Next JS'],
     source: 'https://google.com',
-    visit: ['https://google.com'],
+    visit: ['https://github.com/kandarp43/social-media'],
     id: 2,
   },
   {
     title: 'todo app',
     description: 'This is a code repository for simple Todo App.',
     image: '/images/4.jpg',
-    tags: ['React', 'ChatEngine', 'Firebase'],
+    tags: ['Angular'],
     source: 'https://google.com',
     visit: ['https://github.com/kandarp43/todo-app-angular'],
     id: 3,

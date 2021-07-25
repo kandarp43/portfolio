@@ -2,7 +2,6 @@ import React from 'react'
 import {
   DiAngularSimple,
   DiDotnet,
-  DiFirebase,
   DiNodejs,
   DiReact,
   DiZend,
@@ -34,7 +33,7 @@ const Technologies = () => (
       <ListItem>
         <picture>
           <DiReact size='4rem' />
-          <DiAngularSimple size='4rem' />
+          <DiAngularSimple style={{ paddingLeft: '4px' }} size='4rem' />
         </picture>
         <ListContainer>
           <ListTitle>Front-End</ListTitle>

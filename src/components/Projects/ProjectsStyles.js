@@ -31,12 +31,14 @@ export const BlogCard = styled.div`
   }
 `
 export const TitleContent = styled.div`
+  margin-top: 4px;
   text-align: center;
   z-index: 20;
   width: 100%;
 `
 
 export const HeaderThree = styled.h3`
+  margin-top: 6px;
   font-weight: 500;
   letter-spacing: 2px;
   color: #9cc9e3;
@@ -83,14 +85,15 @@ export const UtilityList = styled.ul`
 `
 
 export const ExternalLinks = styled.a`
-  color: #fff;
+  color: #000;
   font-size: 1.6rem;
   padding: 1rem 1.5rem;
-  background: #fa0;
+  background: #ff5;
   border-radius: 15px;
   transition: 0.5s;
   &:hover {
-    background: #801414;
+    color: #fff;
+    background: #f23414;
   }
 `
 

@@ -24,13 +24,13 @@ const Header = () => (
           <NavLink>Technologies</NavLink>
         </Link>
       </li>
-      <li>
+      {/* <li>
         <NavLink>
           <Link href='#about' passHref>
             <NavLink>About</NavLink>
           </Link>
         </NavLink>
-      </li>
+      </li> */}
     </Div2>
     <Div3>
       <SocialIcons target='_blank' href='https://github.com/kandarp43/'>
