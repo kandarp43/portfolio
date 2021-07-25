@@ -1,28 +1,21 @@
-import React from 'react';
-
-import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
-import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
-
-const data = [
-  { number: 20, text: 'Open Source Projects'},
-  { number: 1000, text: 'Students', },
-  { number: 1900, text: 'Github Followers', },
-  { number: 5000, text: 'Github Stars', }
-];
+import React from 'react'
+import Image from 'next/image'
+import {
+  Section,
+  SectionDivider,
+  SectionTitle,
+} from '../../styles/GlobalComponents'
+import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles'
 
 const Acomplishments = () => (
   <Section>
-    <SectionTitle>Personal Achievements</SectionTitle>
+    <SectionTitle>Certificates</SectionTitle>
     <Boxes>
-      {data.map((card, index) => (
-        <Box key={index}>
-          <BoxNum>{`${card.number}+`}</BoxNum>
-          <BoxText>{card.text}</BoxText>
-        </Box>
-      ))}
+      <Image src='/reactjs.jpg' height='400' width='400' alt='' />
+      <Image src='/angular.png' height='400' width='400' alt='' />
     </Boxes>
-    <SectionDivider/>
+    <SectionDivider />
   </Section>
-);
+)
 
-export default Acomplishments;
+export default Acomplishments
