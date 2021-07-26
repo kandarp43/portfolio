@@ -2,7 +2,6 @@ import React from 'react'
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai'
 
 import { SocialIcons } from '../Header/HeaderStyles'
-import NavDropDown from '../NavDropDown'
 import {
   CompanyContainer,
   FooterWrapper,
@@ -30,13 +29,11 @@ const Footer = () => {
           </LinkItem>
         </LinkColumn>
       </LinkList>
-      {/* <NavDropDown /> */}
       <SocialIconsContainer>
         <CompanyContainer>
           <Slogan>
             Innovation comes from a special work called {" 'Practice'"}.
           </Slogan>
-          <Slogan>-kandarp</Slogan>
         </CompanyContainer>
         <SocialContainer>
           <SocialIcons href='https://github.com/kandarp43/'>
@@ -50,6 +47,7 @@ const Footer = () => {
           </SocialIcons>
         </SocialContainer>
       </SocialIconsContainer>
+      <Slogan>-kandarp</Slogan>
     </FooterWrapper>
   )
 }
