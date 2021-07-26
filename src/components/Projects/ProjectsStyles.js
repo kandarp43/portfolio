@@ -22,7 +22,7 @@ export const GridContainer = styled.section`
   }
 `
 export const BlogCard = styled.div`
-  border-radius: 10px;
+  border-radius: 5px;
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   text-align: center;
   width: 400px;
@@ -89,7 +89,7 @@ export const ExternalLinks = styled.a`
   font-size: 1.6rem;
   padding: 1rem 1.5rem;
   background: #ff5;
-  border-radius: 15px;
+  border-radius: 5px;
   transition: 0.5s;
   &:hover {
     color: #fff;
