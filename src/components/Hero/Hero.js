@@ -2,6 +2,7 @@ import React from 'react'
 
 import {
   Section,
+  SectionHeroTitle,
   SectionText,
   SectionTitle,
 } from '../../styles/GlobalComponents'
@@ -14,9 +15,10 @@ const Hero = () => (
       <LeftSection>
         <SectionTitle main center>
           Hello
+          <br />
           {/* eslint-disable-next-line react/no-unescaped-entities */}
-          <p>I'm Kandarp Dangi</p>
-          <p style={{ fontSize: '40px' }}>Fullstack web developer</p>
+          I'm Kandarp Dangi
+          <SectionHeroTitle>Fullstack web developer</SectionHeroTitle>
         </SectionTitle>
         <SectionText>
           I can say that i am the best javaScript Developer that you have ever

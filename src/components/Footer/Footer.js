@@ -2,6 +2,7 @@ import React from 'react'
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai'
 
 import { SocialIcons } from '../Header/HeaderStyles'
+import NavDropDown from '../NavDropDown'
 import {
   CompanyContainer,
   FooterWrapper,
@@ -29,6 +30,7 @@ const Footer = () => {
           </LinkItem>
         </LinkColumn>
       </LinkList>
+      {/* <NavDropDown /> */}
       <SocialIconsContainer>
         <CompanyContainer>
           <Slogan>
