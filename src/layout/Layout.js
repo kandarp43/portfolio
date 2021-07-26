@@ -13,7 +13,7 @@ export const Layout = ({ children }) => {
         <meta author='kandarp dangi' />
         <meta
           name='keywords'
-          content='kandarp dangi, web developer portfolio, portfolio, kandarp, react with kandarp '
+          content='kandarp dangi,kandarpdangi.in, web developer portfolio, portfolio, kandarp dangi portfolio, react with kandarp '
         />
         <meta
           name='description'
