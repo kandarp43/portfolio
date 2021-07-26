@@ -10,6 +10,7 @@ export const Layout = ({ children }) => {
       <Head>
         <title>kandarp dangi</title>
         <meta name='viewport' content='initial-scale=1.0, width=device-width' />
+        <meta author='kandarp dangi' />
         <meta
           name='keywords'
           content='kandarp dangi, web developer portfolio, portfolio, kandarp, react with kandarp '
