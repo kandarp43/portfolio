@@ -9,6 +9,7 @@ import { Section } from '../src/styles/GlobalComponents'
 
 const Home = () => {
   return (
+    
     <Layout>
       {/* <Section grid> */}
         <Hero />
