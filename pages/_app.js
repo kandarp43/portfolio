@@ -17,7 +17,7 @@ export default function App({ Component, pageProps }) {
           <meta author='kandarp dangi' />
           <meta
             name='keywords'
-            content='kandarp dangi,kandarpdangi.in, web developer portfolio, portfolio, kandarp dangi portfolio, react with kandarp '
+            content='kandarp dangi,kandarpdangi.in, web developer portfolio, portfolio, kandarp dangi portfolio,kandarpdangi, react with kandarp '
           />
           <meta
             name='description'
