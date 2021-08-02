@@ -33,7 +33,6 @@ export const BlogCard = styled.div`
   }
 `
 export const TitleContent = styled.div`
-  margin-top: 4px;
   text-align: center;
   z-index: 20;
   width: 100%;
@@ -68,13 +67,13 @@ export const Intro = styled.div`
 
 export const CardInfo = styled.p`
   width: 100%;
-  padding: 0 50px;
+  padding: 0 40px;
   color: #e4e6e7;
   font-style: 2rem;
-  line-height: 24px;
+  line-height: 25px;
   text-align: justify;
   @media ${(props) => props.theme.breakpoints.sm} {
-    padding: 0.3rem;
+    padding: 0.3rem 1.5rem;
   }
 `
 
