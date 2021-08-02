@@ -41,19 +41,19 @@ const Projects = () => (
                   return <Tag key={i}>{t}</Tag>
                 })}
               </TagList>
-            </div>
-            <UtilityList>
-              {p.visit.length < 2 ? (
-                <ExternalLinks href={p.visit[0]}>source</ExternalLinks>
-              ) : (
-                <>
-                  <ExternalLinks href={p.visit[0]}>Frontend</ExternalLinks>
-                  <ExternalLinks href={p.visit[1]}>Backend</ExternalLinks>
-                </>
-              )}
+              <UtilityList>
+                {p.visit.length < 2 ? (
+                  <ExternalLinks href={p.visit[0]}>source</ExternalLinks>
+                ) : (
+                  <>
+                    <ExternalLinks href={p.visit[0]}>Frontend</ExternalLinks>
+                    <ExternalLinks href={p.visit[1]}>Backend</ExternalLinks>
+                  </>
+                )}
 
-              {/* <ExternalLinks href={p.source}>Source</ExternalLinks> */}
-            </UtilityList>
+                {/* <ExternalLinks href={p.source}>Source</ExternalLinks> */}
+              </UtilityList>
+            </div>
           </BlogCard>
         )
       })}
