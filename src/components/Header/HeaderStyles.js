@@ -31,7 +31,9 @@ export const Div2 = styled.div`
   display: flex;
   justify-content: space-around;
   @media ${(props) => props.theme.breakpoints.sm} {
-    grid-area: 2 / 2 / 3 / 5;
+    flex-direction: column;
+    display: ${(props) => (props.mobileNav ? 'none' : 'flex')};
+    grid-area: 1 / 1 / 3 / 5;
   }
 `
 export const Div3 = styled.div`
@@ -49,6 +51,7 @@ export const Div3 = styled.div`
 export const NavLink = styled.div`
   font-size: 2rem;
   line-height: 32px;
+  width: fit-content;
   color: rgba(255, 255, 255, 0.75);
   transition: 0.4s ease;
   &:hover {
