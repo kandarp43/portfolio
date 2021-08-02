@@ -19,10 +19,12 @@ export const GridContainer = styled.section`
     flex-direction: column;
     padding: 2rem;
     padding-bottom: 0;
+    margin-bottom: 2rem;
   }
 `
 export const BlogCard = styled.div`
   border-radius: 5px;
+  min-height: 400px;
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   text-align: center;
   width: 400px;
