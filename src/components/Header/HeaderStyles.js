@@ -31,8 +31,7 @@ export const Div2 = styled.div`
   display: flex;
   justify-content: space-around;
   @media ${(props) => props.theme.breakpoints.sm} {
-    flex-direction: column;
-    display: ${(props) => (props.mobileNav ? 'none' : 'flex')};
+    display: ${(props) => (props.mobileNav ? 'none' : 'none')};
     grid-area: 1 / 1 / 3 / 5;
   }
 `
