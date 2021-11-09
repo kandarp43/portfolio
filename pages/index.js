@@ -7,20 +7,20 @@ import Timeline from '../src/components/TimeLine/TimeLine'
 import { Layout } from '../src/layout/Layout'
 import { Section } from '../src/styles/GlobalComponents'
 
-const Home = () => {
-  return (
-    
-    <Layout>
-      {/* <Section grid> */}
-        <Hero />
-        {/* <BgAnimation /> */}
-      {/* </Section> */}
-      <Projects />
-      <Technologies />
 
-      <Acomplishments />
-    </Layout>
-  )
+const Home = () => {
+	return (
+		<Layout>
+			{/* <Section grid> */}
+			<Hero />
+			{/* <BgAnimation /> */}
+			{/* </Section> */}
+			<Projects />
+			<Technologies />
+
+			<Acomplishments />
+		</Layout>
+	)
 }
 
 export default Home
