@@ -16,6 +16,7 @@ const Hero = () => (
 				<SectionTitle main center>
 					Hello
 					<br />
+					{/* eslint-disable-next-line react/no-unescaped-entities */}
 					I'm Kandarp Dangi
 					<SectionHeroTitle>MERN Stack Web Developer</SectionHeroTitle>
 				</SectionTitle>
