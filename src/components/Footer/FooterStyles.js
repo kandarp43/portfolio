@@ -24,7 +24,7 @@ export const LinkItem = styled.a`
 
 	&:hover {
 		color: #fff;
-		left: 6px;
+		left: 7px;
 	}
 
 	@media ${(props) => props.theme.breakpoints.md} {

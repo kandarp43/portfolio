@@ -1,10 +1,9 @@
 import Theme from '../src/styles/theme'
 import Head from 'next/head'
-import styles from '../public/index.css'
 export default function App({ Component, pageProps }) {
 	return (
 		<>
-			<Theme className={styles.scroll}>
+			<Theme>
 				<Head>
 					<title>kandarp dangi</title>
 					<meta
