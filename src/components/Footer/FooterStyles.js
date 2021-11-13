@@ -15,8 +15,22 @@ export const FooterWrapper = styled.section`
 
 export const LinkItem = styled.a`
 	font-size: 18px;
+	width: fit-content;
+	font-weight: 600;
 	line-height: 30px;
-	color: rgba(255, 255, 255, 0.75);
+	background-color: #fdf;
+	&:hover {
+		background-color: #4158d0;
+		background-image: linear-gradient(
+			270deg,
+			#4158d0 0%,
+			#c850c0 46%,
+			#ffcc70 100%
+		);
+	}
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 	margin-bottom: 16px;
 	transition: 0.3s ease;
 	position: relative;
@@ -89,8 +103,6 @@ export const SloganAuther = styled.p`
 	left: 0;
 	color: #2f2;
 	&:hover {
-		color: #e0c;
-		letter-spacing: 0.2em;
 		left: 6px;
 	}
 
